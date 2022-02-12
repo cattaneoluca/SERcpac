@@ -301,6 +301,9 @@ class DeepEmotionRecognizer(EmotionRecognizer):
         # TODO
         # raise TypeError("This method isn't supported yet for deep nn")
         pass
+    
+    def get_model(self):
+        return self.model
 
 
 if __name__ == "__main__":
